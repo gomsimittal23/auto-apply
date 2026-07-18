@@ -1,0 +1,74 @@
+At Licious, we are building a scalable and reliable data platform that powers critical business decisions, operational intelligence, and next-generation data products.
+
+
+
+
+As an SDE I – Data, you will play a key role in designing, building, and optimizing large-scale distributed data systems that process and serve data across the organization. This role is ideal for someone who is passionate about distributed systems, streaming architectures, and platform engineering.
+
+
+What You'll Be Doing:
+
+
+Build Scalable Data Platforms: Design, develop, and maintain large-scale data pipelines and distributed systems that support real-time and batch data processing across the organization.
+Streaming & Data Processing: Build and optimize data processing solutions using modern streaming and distributed computing frameworks to ensure high throughput, reliability, and scalability.
+Platform Engineering: Contribute to the development and evolution of the data platform, improving system reliability, operational efficiency, observability, and developer experience.
+System Design & Architecture: Participate in the design and implementation of scalable data architectures and distributed systems while making informed engineering trade-offs around performance, reliability, and cost.
+Infrastructure & Cloud Automation: Leverage modern infrastructure and orchestration tools to build, deploy, and operate highly available data services and platform components.
+Performance & Optimization: Identify bottlenecks and continuously improve data processing efficiency, system performance, platform costs, and resource utilization.
+Cross-Functional Collaboration: Partner closely with software engineers, platform engineers, product teams, and business stakeholders to understand data requirements and deliver scalable solutions.
+Operational Excellence: Participate in monitoring, troubleshooting, root cause analysis, and production support activities to ensure platform stability and reliability.
+
+
+What You'll Bring to the Team
+
+
+Experience: 1–3 years of experience in Software Engineering, Data Engineering, Platform Engineering, or related backend engineering roles, with hands-on experience building distributed systems and data infrastructure.
+Distributed Systems & Data Engineering:
+
+Strong experience with:
+Apache Spark
+Apache Kafka
+Streaming data architecture.
+Batch processing system.
+Distributed computing concepts
+Programming Skills
+
+Strong proficiency in Python (must-have)
+Experience with modern programming languages such as Golang or Rust is a plus
+Strong understanding of data structures, algorithms, and software engineering fundamentals.
+Infrastructure & Platform Engineering: Hands on Experience with deploying, operating, and troubleshooting applications in cloud-native environments.
+Databases & Data Modeling:
+
+Strong SQL skills
+Experience working with large-scale datasets
+Exp working with spark , job optimizations.
+Understanding of data modeling and data pipeline design principles.
+System Design & Problem Solving
+
+Strong understanding of low-level system design concepts.
+Ability to reason about distributed systems, scalability challenges, and architectural trade-offs
+Strong debugging, troubleshooting, and root cause analysis skills
+Impact-Oriented Mindset: 
+
+Demonstrated ability to deliver measurable business outcomes through engineering initiatives, such as:
+Platform cost optimization
+Reliability improvement
+Performance enhancements
+Collaboration & Ownership :
+
+Strong ownership mindset and accountability
+Ability to work independently on complex engineering problems
+Excellent communication and stakeholder management skills
+Passion for learning new technologies and solving challenging technical problems
+
+
+Good to Have:
+Experience with AI-enabled platforms, RAG systems, LLM-based applications, or modern AI infrastructure.
+
+
+
+
+Qualification and Experience
+1-3 years of experience in Software Engineering, Data Engineering, Backend Engineering, or Platform Engineering.
+Bachelor's degree in Computer Science, Engineering, Information Technology, or a related field.
+Proven experience building and operating distributed systems in a product or technology-driven environment.

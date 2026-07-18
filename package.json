@@ -1,0 +1,19 @@
+{
+  "name": "auto-apply-resume-tailor",
+  "version": "1.0.0",
+  "description": "Local AI Resume Tailoring Tool using LaTeX templates",
+  "main": "dist/tailor.js",
+  "scripts": {
+    "tailor": "node dist/tailor.js",
+    "test-compile": "node dist/test-compilation.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@google/genai": "*",
+    "dotenv": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "typescript": "~5.4.5"
+  }
+}

@@ -1,0 +1,64 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{charter} % clean, readable font
+
+% Setup hyperlink style
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+% Custom list styling for resume bullet points
+\setlist[itemize]{leftmargin=12pt, nosep, after=\vspace{2pt}}
+
+\pagestyle{empty} % no page numbers
+
+\begin{document}
+
+% Contact Information
+\begin{center}
+    {\Huge \bfseries <<NAME>>} \\ \vspace{2pt}
+    <<LOCATION>> \ $|$\ <<PHONE>> \ $|$\ \href{mailto:<<EMAIL>>}{<<EMAIL>>} \\ \vspace{2pt}
+    \href{<<LINKEDIN>>}{LinkedIn} \ $|$\ \href{<<GITHUB>>}{GitHub}
+\end{center}
+
+% Summary Section
+\vspace{-4pt}
+\section*{Professional Summary}
+<<SUMMARY>>
+
+% Skills Section
+\section*{Technical Skills}
+\begin{description}[labelwidth=120pt, leftmargin=125pt, style=nextline, nosep]
+    \item[\textbf{Programming Languages:}] <<SKILLS_LANGUAGES>>
+    \item[\textbf{Frameworks \& Libraries:}] <<SKILLS_FRAMEWORKS>>
+    \item[\textbf{Databases:}] <<SKILLS_DATABASES>>
+    \item[\textbf{Tools \& DevOps:}] <<SKILLS_TOOLS>>
+\end{description}
+
+% Work Experience Section
+\section*{Professional Experience}
+\vspace{-4pt}
+<<EXPERIENCE>>
+
+% Projects Section
+\vspace{-6pt}
+\section*{Projects}
+<<PROJECTS>>
+
+% Education Section
+\vspace{-6pt}
+\section*{Education}
+<<EDUCATION>>
+
+\end{document}
