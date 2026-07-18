@@ -11,6 +11,12 @@ async function testCompile() {
 
   // Create mock tailored data mimicking Gemini's expected output format
   const mockTailoredData: TailoredResumeData = {
+    company: "NextGen Financial",
+    role: "Senior Backend Engineer",
+    ats_score: 95,
+    matched_keywords: ["Node.js", "TypeScript", "PostgreSQL", "Redis", "Docker"],
+    missing_keywords: ["Playwright"],
+    suggestions: ["Add browser automation experience to your summary."],
     summary: "Dedicated Backend Engineer with 2+ years of experience specializing in Node.js, Fastify, TypeScript, and Laravel. Expert in database optimizations (PostgreSQL/SQLite) and Playwright browser automation.",
     skills: {
       languages: ["TypeScript", "JavaScript", "Python", "PHP", "SQL"],

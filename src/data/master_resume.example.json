@@ -1,0 +1,80 @@
+{
+  "personal_info": {
+    "name": "YOUR NAME",
+    "email": "your.email@example.com",
+    "phone": "+91 9999999999",
+    "location": "City, State Zip, Country",
+    "website": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername"
+  },
+  "summary": "Detail-oriented Software Engineer with 2+ years of experience in backend development and database design. Proven track record of optimizing system response speeds and implementing secure RESTful APIs. Experienced in utilizing AI tools like GitHub Copilot and Antigravity to improve development workflows.",
+  "skills": {
+    "languages": [
+      "JavaScript",
+      "Node.js",
+      "PHP",
+      "C++"
+    ],
+    "frameworks": [
+      "Express.js",
+      "Laravel",
+      "React.js",
+      "Angular"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "ClickHouse",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "tools": [
+      "Git",
+      "REST APIs",
+      "Docker",
+      "AWS S3",
+      "CI/CD"
+    ]
+  },
+  "experience": [
+    {
+      "role": "SOFTWARE ENGINEER",
+      "company": "TECH COMPANY NAME",
+      "location": "City, Country",
+      "start_date": "Oct 2024",
+      "end_date": "Present",
+      "bullets": [
+        "Designed and built RESTful APIs serving thousands of users daily, maintaining high availability.",
+        "Created a microservice utilizing Node.js and ClickHouse to reduce monolithic API load by 50%.",
+        "Optimized database performance by 40% using query tuning and Redis caching."
+      ]
+    },
+    {
+      "role": "ASSOCIATE DEVELOPER",
+      "company": "PREVIOUS COMPANY NAME",
+      "location": "City, Country",
+      "start_date": "Jul 2024",
+      "end_date": "Sep 2024",
+      "bullets": [
+        "Developed core application features using PHP and Laravel, improving user engagement by 20%.",
+        "Spearheaded database schema migrations, saving developer hours and minimizing schema downtime."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Online Code Compiler",
+      "tech_stack": "React.js, Node.js, Express, Docker",
+      "description": "Architected a full-stack online compiler with real-time feedback using Docker for secure execution environments."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech - Computer Science & Engineering",
+      "institution": "UNIVERSITY NAME",
+      "location": "City, Country",
+      "start_date": "Aug 2020",
+      "end_date": "Jul 2024"
+    }
+  ]
+}

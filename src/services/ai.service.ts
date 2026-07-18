@@ -5,6 +5,12 @@ dotenv.config();
 
 // Define the structure of the tailored resume response from AI
 export interface TailoredResumeData {
+  company: string;
+  role: string;
+  ats_score: number;
+  matched_keywords: string[];
+  missing_keywords: string[];
+  suggestions: string[];
   summary: string;
   skills: {
     languages: string[];
@@ -28,6 +34,33 @@ export interface TailoredResumeData {
 const tailoredSchema = {
   type: "OBJECT",
   properties: {
+    company: {
+      type: "STRING",
+      description: "The name of the hiring company extracted from the job description. Default to 'Unknown' if not clearly identified."
+    },
+    role: {
+      type: "STRING",
+      description: "The job title or role being applied for, extracted from the job description. Default to 'Unknown' if not clearly identified."
+    },
+    ats_score: {
+      type: "INTEGER",
+      description: "Calculated ATS compatibility score (0-100) based on how well the candidate's skills and experiences match the JD requirements."
+    },
+    matched_keywords: {
+      type: "ARRAY",
+      items: { type: "STRING" },
+      description: "List of skills, technologies, and methodologies from the JD that are matched in the resume."
+    },
+    missing_keywords: {
+      type: "ARRAY",
+      items: { type: "STRING" },
+      description: "List of key requirements from the JD that the candidate does not have in their master resume."
+    },
+    suggestions: {
+      type: "ARRAY",
+      items: { type: "STRING" },
+      description: "Concise actionable advice for the candidate to bridge any critical skill gaps (e.g. learning certain libraries)."
+    },
     summary: {
       type: "STRING",
       description: "A tailored professional summary highlighting relevant experience for the target job."
@@ -89,7 +122,18 @@ const tailoredSchema = {
       description: "Relevant projects from the master resume with tailored descriptions."
     }
   },
-  required: ["summary", "skills", "experience", "projects"]
+  required: [
+    "company",
+    "role",
+    "ats_score",
+    "matched_keywords",
+    "missing_keywords",
+    "suggestions",
+    "summary",
+    "skills",
+    "experience",
+    "projects"
+  ]
 };
 
 export class AIService {
