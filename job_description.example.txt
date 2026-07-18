@@ -1,0 +1,14 @@
+Company - NextGen Financial
+
+Role: Software Development Engineer I (Node.js & SQL)
+Location: Remote (India)
+
+About the Role:
+We are looking for a Software Development Engineer to build robust backend financial services. You will design secure APIs, optimize SQL database performance, and containerize applications.
+
+Requirements:
+- 1-3 years of professional software development experience.
+- Strong hands-on experience with Node.js and JavaScript/TypeScript.
+- Hands-on experience writing complex queries for SQL databases (PostgreSQL, MySQL).
+- Experience with key-value caching (Redis) and background job processing.
+- Experience containerizing services with Docker and version control using Git.

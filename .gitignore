@@ -2,3 +2,4 @@
 .env
 /dist
 /src/data/master_resume.json
+job_description.txt
